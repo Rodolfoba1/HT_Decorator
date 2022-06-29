@@ -27,6 +27,3 @@ class Batman(Fighter):
     def compute_damage(self, enemy: Fighter) -> float:
         damage: float = enemy.get_attack()
         return damage
-
-
-
