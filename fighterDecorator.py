@@ -1,6 +1,8 @@
 from fighter import Fighter
 
+
 class FighterDecorator(Fighter):
+
     def __init__(self, nuevo: Fighter):
         self._jugador: Fighter = nuevo
 
