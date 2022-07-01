@@ -11,7 +11,7 @@ class Armor(FighterDecorator):
         return super().get_attack()
 
     def get_defence(self) -> float:
-        return super().get_defence() + 600
+        return super().get_defence() + 800
 
     def get_hp(self) -> float:
         return super().get_hp()
