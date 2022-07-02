@@ -28,8 +28,7 @@ class Shield(FighterDecorator):
             limit = 75
         probabilidad: int = random.randint(1, 100)
         if probabilidad > limit:
-            #Se ha bloqueado el ataque
+            # Se ha bloqueado el ataque
             return 0
         else:
             return super().compute_damage(enemy)
-

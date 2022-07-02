@@ -172,7 +172,7 @@ class Cliente:
             print('Escoja entre los siguientes ataques')
             print('1- Ataque Normal')
             if probabilidad < 4:
-                print(f'2- Recargar super Ataque (Probabilidad: {probabilidad*25} %)')
+                print(f'2- Recargar super Ataque (Probabilidad: {probabilidad * 25} %)')
             if probabilidad > 0:
                 print('3- Super Ataque')
             print("-".center(40, "-"))
@@ -211,5 +211,7 @@ class Cliente:
             return -1
         else:
             return 0
+
+
 main = Cliente()
 main.pantalla()

@@ -24,4 +24,3 @@ class Crown(FighterDecorator):
 
     def compute_damage(self, enemy: Fighter) -> float:
         return super().compute_damage(enemy)
-
